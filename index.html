@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Countdown</title>
+    <link rel="stylesheet" href="./styles/mobile.css" />
+    <link
+      rel="stylesheet"
+      href="./styles/tablet.css"
+      media="(min-width: 470px)"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./styles/desktop.css"
+      media="(min-width: 640px)"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <h1 class="title">New year</h1>
+
+      <div class="countdown">
+        <section class="countdown__section">
+          <span class="span days">x</span>
+          <span class="span span--time">Days</span>
+        </section>
+        <section class="countdown__section">
+          <span class="span hours">x</span>
+          <span class="span span--time">Hours</span>
+        </section>
+        <section class="countdown__section">
+          <span class="span minutes">x</span>
+          <span class="span span--time">Minutes</span>
+        </section>
+        <section class="countdown__section four">
+          <span class="span seconds">x</span>
+          <span class="span span--time">Seconds</span>
+        </section>
+      </div>
+
+      <h2 class="subtitle">left until New Year's.</h2>
+    </main>
+
+    <script src="./main.js" type="module" defer></script>
+  </body>
+</html>
