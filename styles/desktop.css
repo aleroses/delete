@@ -1,0 +1,11 @@
+.countdown {
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(120px, 100%), 1fr)
+  );
+}
+
+.countdown .four {
+  grid-column: 4;
+  grid-row: 1;
+}
